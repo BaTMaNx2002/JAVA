@@ -1,35 +1,20 @@
-abstract class Animal {
-    // Abstract method
-    abstract void sound();
+// Abstraction
+// Abstraction is the concept of hiding complex implementation details and showing only the essential features of an object.
+//  This can be achieved using abstract classes and interfaces.
 
-    // Concrete method
-    void eat() {
-        System.out.println("This animal eats food.");
-    }
+abstract class Shape {
+    abstract void draw();
 }
 
-class Dog extends Animal {
-    @Override
-    void sound() {
-        System.out.println("Bark");
-    }
-}
-
-class Cat extends Animal {
-    @Override
-    void sound() {
-        System.out.println("Meow");
+class Circle extends Shape {
+    void draw() {
+        System.out.println("Drawing Circle");
     }
 }
 
 public class abstractOops {
     public static void main(String[] args) {
-        Animal dog = new Dog();
-        dog.sound(); // Output: Bark
-        dog.eat(); // Output: This animal eats food.
-
-        Animal cat = new Cat();
-        cat.sound(); // Output: Meow
-        cat.eat(); // Output: This animal eats food.
+        Shape myShape = new Circle();
+        myShape.draw(); // Outputs: Drawing Circle
     }
 }
