@@ -1,7 +1,7 @@
 //Circular Sentence
 
 class Solution {
-    // This method checks if a sentence is circular - where each word's last letter
+    // This method checks if a sentence is circular - where each word's last letter 
     // matches the next word's first letter, and the last word's last letter matches
     // the first word's first letter
     public boolean isCircularSentence(String sentence) {
