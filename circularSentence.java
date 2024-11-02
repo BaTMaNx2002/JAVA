@@ -6,7 +6,7 @@ class Solution {
     // the first word's first letter
     public boolean isCircularSentence(String sentence) {
         // First check: verify if the first and last characters of the entire string match
-        // This handles the requirement that the sentence should be circular
+        // This handles the requirement that the sentence should be circular 
         if (sentence.charAt(0) != sentence.charAt(sentence.length() - 1))
             return false;
 
