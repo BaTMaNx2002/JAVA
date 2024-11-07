@@ -4,7 +4,7 @@ import java.util.Queue;
 
 //  BinaryTree Level Order Traversal
 
-public class BinaryTreeLevelOrder {
+public class BinaryTreeLevelOrder { 
     static class Node {
         int data;
         Node left;
