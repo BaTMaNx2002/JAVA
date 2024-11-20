@@ -7,7 +7,7 @@ class MyException extends Exception {
         super(s);
     }
 } 
- 
+  
 // A Class that uses above MyException
 public class Main {
     // Driver Program
