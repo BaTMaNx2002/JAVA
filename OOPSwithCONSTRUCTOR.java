@@ -1,7 +1,7 @@
 // Class representing a generic Animal
 class Animal {
     String name;
-    int age;
+    int age; 
 
     // Constructor 
     Animal(String name, int age) { 
