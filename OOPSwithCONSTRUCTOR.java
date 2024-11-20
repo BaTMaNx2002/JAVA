@@ -3,7 +3,7 @@ class Animal {
     String name;
     int age;
 
-    // Constructor
+    // Constructor 
     Animal(String name, int age) {
         this.name = name;
         this.age = age;
