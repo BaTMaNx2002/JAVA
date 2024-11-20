@@ -4,7 +4,7 @@ class Animal {
     int age;
 
     // Constructor 
-    Animal(String name, int age) {
+    Animal(String name, int age) { 
         this.name = name;
         this.age = age;
     }
