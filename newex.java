@@ -5,7 +5,7 @@ class MyException extends Exception {
     {  
         // Call constructor of parent Exception 
         super(s);
-    }
+    } 
 }  
   
 // A Class that uses above MyException
