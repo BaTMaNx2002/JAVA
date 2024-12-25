@@ -9,7 +9,7 @@ public class BinaryTreeInOrder {
  
         Node(int data) { 
             this.data = data;
-            this.left = null;
+            this.left = null; 
             this.right = null;
         }
     }
