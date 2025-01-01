@@ -12,7 +12,7 @@ public class BinaryTreeInOrder {
             this.left = null; 
             this.right = null;
         }
-    }
+    } 
 
     static class BinaryTree { 
         static int idx = -1;
