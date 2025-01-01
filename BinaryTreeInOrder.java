@@ -14,7 +14,7 @@ public class BinaryTreeInOrder {
         }
     } 
 
-    static class BinaryTree { 
+    static class BinaryTree {  
         static int idx = -1;
 
         public static Node buildTree(int nodes[]) {
